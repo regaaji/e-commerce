@@ -1,0 +1,101 @@
+body{
+	margin:0;
+	padding:0;
+	background-image: url(../img/cart.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+.panel{
+	border: 0px;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+	padding-top: 70px;
+	position: relative;
+	transition: 1s;
+}
+h4{
+	margin:0;
+	padding: 0;
+	color: #F9DF05;
+}
+
+span{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background:#fff;
+	display: inline-block;
+	text-align: center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	margin-left: 10px;
+	-webkit-box-shadow: -10px 10px 10px rgba(0,0,0,0.5);
+	box-shadow: -10px 10px 10px rgba(0,0,0,0.5);
+}
+.fa-facebook{
+	color: #3B5998;
+}
+.fa-twitter{
+	color: #1DA1F2;
+}
+.fa-google-plus{
+	color: red;
+}
+.lock{
+	position: absolute;
+	top: -50px;
+	width: 100px;
+	height: 100px;
+	line-height: 112px;
+	text-align: center;
+	left: 37%;
+	background: linear-gradient(DarkSlateGray,Cyan);
+	background: -webkit-linear-gradient(DarkSlateGray,Cyan);
+	background: -moz-linear-gradient(DarkSlateGray,Cyan);
+	border: 3px outset #F4E10A;
+	-webkit-border-radius: 100%;
+	 -moz-border-radius: 100%;
+	 -ms-border-radius: 100%;
+	 -o-border-radius: 100%;
+	 border-radius: 100%;
+	 color: #fff; 
+	 -webkit-box-shadow: -10px 10px 20px rgba(255, 255, 255, 0.5);
+	 box-shadow: -10px 10px 20px rgba(255, 255, 255, 0.5);
+}
+.panel:hover{
+	background:rgba(0,0,0,0.7);
+}
+.label{
+	position: absolute;
+	top: 10px;
+	left: -20px;
+	width: 130px;
+	height: 40px;
+	line-height: 35px;
+	color: #fff;
+	transform: rotate(-20deg);
+	background: #29db66;
+	-webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+.label2{
+	position: absolute;
+	top: 0px;
+	left: -18px;
+	width: 130px;
+	height: 40px;
+	line-height: 35px;
+	color: #fff;
+	transform: rotate(-27deg);
+	background: #8dea99;
+	z-index: -1;
+}
+.btn-warning{
+	border: 0px;
+	border-radius: 0px;
+}

@@ -1,0 +1,126 @@
+body{
+  height: 200vh;
+}
+.rubypedia-parallax { 
+  background-image: url("img/baju.jpg");
+  height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*section*/
+
+section{
+  min-height: 600px;
+}
+
+/*callout*/
+
+.bs-callout {
+  width: 80%;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  background-color: #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code {
+  border-radius: 3px;
+}
+.bs-callout p{
+  font-size: 18px;
+}
+.bs-callout+.bs-callout {
+  margin-top: -5px;
+}
+
+.bs-callout-primary {
+  border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+  color: #428bca;
+}
+
+/*home*/
+.home{
+  margin-top: 20px;
+}
+
+.home hr{
+  width: 250px;
+  border-top: 3px solid #999;
+}
+
+
+
+/*.thumbnail {
+  margin-left: 50px; 
+   width: 660px;
+  border: 1px solid;
+  text-align: center;
+}
+*/
+
+
+
+
+/* Icon Boxes
+=================================================================== */
+.icons-box-container {
+  float:left;
+}
+
+.icons-boxes-container {
+  float:left;
+}
+
+.icons-box {
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 20px 10px 10px 10px;
+}
+
+.icons-box:hover {
+  background: #fcfcfc;
+  border: 1px solid #f6f6f6;
+}
+
+.icons-box h3 {
+  margin: 0 auto;
+  padding-top: 10px;
+  border-bottom: 3px double #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.icons-box p {
+  float: left;
+}
+
+.icons-box i {
+  float: left;
+  margin: -2px 0 0px 0;
+}
+
+.title {
+  border-bottom: 3px double #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
+  border-bottom: 5px double #36C2B2 !important;
+  margin-bottom: -4px !important;
+  display: inline-block !important;
+  padding: 0px 10px !important;
+  margin-left:15px !important;
+  margin-right:15px !important;
+}
