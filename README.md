@@ -1,9 +1,8 @@
 # e-commerce
 
+![alt text](img/e-commerce.png "image title")
 
-[ref]: img/e-commerce.png
-
-Belajat PHP dasar dengan membuat toko online
+Belajat PHP dasar dengan membuat toko online 'Gaya Distro'
 
 1. Website ini dibuat dengan menggunakan bahasa pemograman:
   * PHP 7
