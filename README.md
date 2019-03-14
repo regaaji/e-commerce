@@ -1,5 +1,5 @@
 # e-commerce
-----------------------------------------------
+
 Belajat PHP dasar dengan membuat toko online
 
 1. Website ini dibuat dengan menggunakan bahasa pemograman:
